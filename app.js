@@ -67,8 +67,6 @@ $('#generate').click(function () {
             'images/thanos4.jpg'
         ];
 
-        $('#image-container').empty();
-
         var arr = [];
         while (arr.length < 3) {
             var r = Math.floor(Math.random() * 4);

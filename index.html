@@ -29,23 +29,23 @@
     }
 
     .ncf-container-otsledit.nfc-top-left-otsledit {
-        top: 12px;
-        left: 12px
+        top: 8px;
+        left: 8px
     }
 
     .ncf-container-otsledit.nfc-top-right-otsledit {
-        top: 12px;
-        right: 12px
+        top: 8px;
+        right: 8px
     }
 
     .ncf-container-otsledit.nfc-bottom-right-otsledit {
-        bottom: 12px;
-        right: 12px
+        bottom: 8px;
+        right: 8px
     }
 
     .ncf-container-otsledit.nfc-bottom-left-otsledit {
-        bottom: 12px;
-        left: 12px
+        bottom: 8px;
+        left: 8px
     }
 
     @media (max-width: 767px) {
@@ -62,7 +62,7 @@
         pointer-events: auto;
         overflow: hidden;
         margin: 0 0 6px;
-        padding: 30px;
+        padding: 15px;
         width: 300px;
         border-radius: 3px 3px 3px 3px;
         box-shadow: 0 0 12px #999;
@@ -160,22 +160,14 @@
 
     <section class="jumbotron text-center">
         <div class="container">
-            <h2 class="alert" style="position:absolute; top: 0px; right: 0px">Thanos MVP</h2>
-            <h1 class="jumbotron-heading">3D Model Generator</h1>
+            <h2 class="jumbotron-heading">3D Model Generator</h2>
             <div class="container">
                 <div class="panel panel-default">
                     <div class="panel-body">
 
-                        <!-- Standar Form -->
-                        <form action="" id="js-upload-form">
-                            <input type="file" id="imgupload" style="display:none"/>
+                        <form action="" id="drop-zone">
+                            <img src="./images/main.jpg" style="width:250px;height:350px;">
                         </form>
-
-                        <!-- Drop Zone -->
-                        <h4>Drag and Drop files below</h4>
-                        <div class="upload-drop-zone" id="drop-zone">
-                            Just drag and drop files here
-                        </div>
 
                         <!-- Progress Bar -->
                         <div id="progressbar-container" class="progress" style="display:none">
@@ -195,7 +187,7 @@
                     </div>
                 </div>
             </div>
-            <div id="generate" class="btn btn-primary my-2 disabled">Generate</div>
+            <div id="generate" class="btn btn-primary my-2">Generate</div>
             </p>
         </div>
     </section>
@@ -210,10 +202,7 @@
 
 <footer class="text-muted">
     <div class="container">
-        <p class="float-right">
-            <a href="https://getbootstrap.com/docs/4.0/examples/album/#">Back to top</a>
-        </p>
-        <p><b>Thanos</b>: We came here to change the world!</p>
+        <p><b>3dmg</b>: We came here to change the world!</p>
     </div>
 </footer>
 
