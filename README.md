@@ -1,0 +1,1 @@
+# allstartup-minsk
